@@ -1,0 +1,197 @@
+.fResponseBody {
+  padding: 20px 20px;
+  width: 800px;
+  min-height: 1123px;
+  background: #fff;
+}
+
+.page{
+  page-break-after: always;
+}
+
+.centerFormat {
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+.section2, .section3{
+  margin-top: 30px;
+}
+
+.section4{
+  margin-top: 20px;
+}
+
+.bordered-col{
+  padding: 3px 10px;
+  border: 1px solid #000;
+}
+
+
+.bordered-mid-col{
+  padding: 3px 10px;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.bordered-row{
+  padding: 3px 0;
+  border: 1px solid #000;
+}
+
+.bordered-mid-row{
+  padding: 3px 0px;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.bordered-col-b{
+  padding: 3px 5px;
+  border: 1px solid #000;
+}
+
+.blueBG {
+  background: rgb(185, 213, 250);
+  border-radius: 8px;
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+
+.bannerText {
+  margin-top: 20px;
+}
+
+.bannerText h1 {
+  font-family: "Arial-Bold";
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.bannerText h2 {
+  font-family: "Arial-Bold";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.toptext {
+  margin: 20px 0;
+}
+
+.logoImage {
+  height: 80px;
+  margin: 10px;
+}
+
+.bannerYellow {
+  background: #ffcc29;
+  border-top: 12px solid #3e4095;
+  margin-bottom: 30px;
+  -webkit-print-color-adjust: exact;
+}
+
+.Tbox {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 11px 15px;
+  margin: 20px 0;
+}
+
+.Tsingle-enter {
+  font-family: "Arial";
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.Tsingle-enter-label {
+  font-family: "Arial";
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0;
+  line-height: 97%;
+}
+
+.Tdouble-enter {
+  font-family: "Arial";
+  margin-top: 11px;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.Tsign-enter {
+  font-family: "Arial";
+  margin-top: 30px;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.Hdouble-enter {
+  font-family: "Arial";
+  margin: 16px auto;
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+}
+
+.H3double-enter {
+  font-family: "Arial";
+  margin: 0;
+  margin-top: 14px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+
+.H3single-enter {
+  font-family: "Arial";
+  margin: 0;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+
+.H4single-enter {
+  font-family: "Arial";
+  margin: 0;
+  font-size: 12px;
+  color: #000;
+  font-weight: 600;
+}
+
+.Lsingle-enter li {
+  font-family: "Arial";
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.Ldouble-enter li {
+  font-family: "Arial";
+  font-size: 12px;
+  margin-bottom: 0;
+  margin-top: 12px
+}
+
+.response {
+  font-family: "Arial";
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.Tsingle {
+  font-family: "Arial";
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  margin-bottom: 8px;
+}
+
+.Tdouble {
+  font-family: "Arial";
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  margin-bottom: 24px;
+}

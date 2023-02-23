@@ -1,0 +1,132 @@
+.about {
+  width: 100%;
+  overflow: hidden;
+  height: inherit;
+}
+
+.pagecentre {
+  float: none;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 75%;
+}
+
+.about h1 {
+  margin: 2em 0em;
+  color: rgb(63, 9, 134);
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  display: block;
+}
+
+.about-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-box {
+  width: 33.3%;
+  max-width: 450px;
+  margin-right: 2em;
+  padding: 2em;
+  margin-bottom: 2em;
+}
+
+.about-box h2 {
+  margin: 1em 0em;
+  color: rgb(63, 9, 134);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  display: block;
+  text-align: center;
+}
+
+.about-box h3 {
+  margin: 0.2em 0em;
+  color: rgb(63, 9, 134);
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  display: block;
+}
+
+.about-box p {
+  margin: 1em 0em;
+  color: rgb(0, 0, 0);
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.about-box ul {
+  margin: 1em 0em;
+  display: block;
+}
+
+.about-box li {
+  color: rgb(0, 0, 0);
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 960px) {
+  .about h1 {
+    font-size: 42px;
+  }
+
+  .pagecentre {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 80%;
+  }
+
+  .about-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .about-box {
+    width: 100%;
+    max-width: 960px;
+    padding: 2em;
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+
+  .pagecentre {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 90%;
+  }
+
+  .about-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .about-box {
+    width: 100%;
+    max-width: 960px;
+    padding: 2em;
+    margin-bottom: 2em;
+  }
+}

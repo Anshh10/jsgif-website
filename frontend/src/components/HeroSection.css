@@ -1,0 +1,183 @@
+.customCard {
+	margin: 0;
+	width: 80%;
+	height: 100%;
+	/* background: linear-gradient(180deg, rgba(4, 7, 123, 1) 0%, rgba(44, 31, 144, 1) 21%, rgba(44, 31, 144, 1) 70%, rgba(4, 7, 123, 1) 100%); */
+	background: #fff;
+	color: rgba(44, 31, 144, 1);
+	border: 0;
+	box-shadow: 0px 0px 20px 3px #000;
+}
+
+.customCardImg {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+.customCardImg img {
+	border: 2px solid rgba(44, 31, 144, 1);
+	height: 200px;
+	width: 150px;
+}
+
+.customHeader {
+	color: rgba(44, 31, 144, 1);
+	background: rgba(0, 0, 0, 0.1);
+	font-size: 18px;
+}
+
+.customTitle {
+	color: rgba(44, 31, 144, 1);
+	text-align: center;
+	padding: 10px 0;
+	font-size: 34px;
+}
+
+.customItem {
+	color: rgba(4, 7, 123, 1);
+	background: yellow;
+	text-transform: capitalize;
+	border: 0;
+	border-radius: 0;
+	border-top-left-radius: 0 !important;
+	border-top-right-radius: 0 !important;
+	box-shadow: 0;
+	font-weight: 500;
+}
+
+.customLink {
+	color: rgba(44, 31, 144, 1);
+	font-size: 22px;
+	text-decoration: none;
+}
+
+
+.customLink:hover {
+	color: rgba(44, 31, 144, 1);
+	text-decoration: underline;
+}
+
+.customLink2 {
+	color: #fff;
+	background: rgba(44, 31, 144, 1);
+	font-size: 22px;
+	text-decoration: none;
+	border: 2px solid #fff;
+	padding: 10px 20px;
+	margin: 10px 0;
+	text-align: center
+}
+
+.customLink2:hover {
+	background-color: #fff;
+	color: rgba(4, 7, 123, 1);
+	border: 2px solid rgba(44, 31, 144, 1);
+	transition: 300ms;
+}
+
+.hero-text>h1 {
+	position: block;
+	margin-top: 40%;
+	text-align: right;
+	color: rgb(63, 9, 134);
+	font-size: 52px;
+}
+
+.hero-text>p {
+	text-align: right;
+	margin-top: 8px;
+	color: rgb(63, 9, 134);
+	font-size: 24px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+}
+
+.hero-btns {
+	margin-top: 20px;
+	text-align: right;
+}
+
+.hero-btns .btn {
+	margin: 6px;
+}
+
+@media screen and (max-width: 960px) {
+
+	.customCard {
+		width: 100%;
+	}
+
+	.customHeader {
+		font-size: 15px;
+	}
+
+	.customTitle {
+		padding: 5px 0;
+		font-size: 24px;
+	}
+
+	.customItem {
+		font-size: 15px;
+		font-weight: 500;
+	}
+
+
+	.customCardImg img {
+		height: 150px;
+		width: 122px;
+	}
+
+	.customLink {
+		font-size: 16px;
+	}
+
+	.customLink2 {
+		font-size: 16px;
+		border: 1.75px solid #fff;
+	}
+
+	.hero-text>h1 {
+		font-size: 50px;
+		text-align: center;
+		margin-top: 1em;
+	}
+
+	.hero-text>p {
+		text-align: center;
+		margin-top: 8px;
+		font-size: 24px;
+	}
+
+	.hero-btns {
+		margin-top: 20px;
+		text-align: right;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.hero-container>h1 {
+		font-size: 36px;
+	}
+
+	.pagecentre {
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+		max-width: 90%;
+	}
+
+	.hero-container>p {
+		font-size: 24px;
+	}
+
+	.btn-mobile {
+		display: block;
+		text-decoration: none;
+	}
+
+	.btn {
+		width: 100%;
+	}
+}

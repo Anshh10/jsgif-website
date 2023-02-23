@@ -1,0 +1,123 @@
+.cardsX {
+	width: 300px;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	-webkit-justify-content: center;
+	max-width: 820px;
+	height: 440px;
+}
+
+.customCard1_link{
+	text-decoration: none;
+}
+
+.customRow {
+    padding: 0;
+    height: 200px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    --bs-gutter-x: 0;
+}
+
+.customCard1__img {
+	visibility: hidden;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-height: 200px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+
+.customCard1__info-hover {
+	position: absolute;
+	padding: 16px;
+	width: 100%;
+	opacity: 0;
+	top: 0;
+}
+
+.customCard1__img--hover {
+	transition: 0.2s all ease-out;
+	background-repeat: no-repeat;
+	width: 300px;
+	position: absolute;
+	height: 200px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	top: 0;
+	left: 0;
+}
+
+
+.customCard1{
+	transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+	background-color: rgb(47, 7, 99);
+	position: relative;
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+}
+
+.customCard1:hover {
+	box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+	transform: scale(1.10, 1.10);
+}
+
+.customCard1:hover .customCard1__img--hover {
+    top: 30%;
+	transform: scale(2.5, 2.5);
+	opacity: 0.3;
+}
+
+.customCard1__info {
+	z-index: 2;
+	background-color: rgb(47, 7, 99);
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	padding: 16px 24px 24px 24px;
+}
+
+.customCard1__category {
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 3px;
+	font-weight: 600;
+	color: #fbff00;
+}
+
+.customCard1__title {
+	margin-top: 5px;
+	margin-bottom: 0;
+	font-family: 'Roboto Slab', serif;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+.customCard1__text {
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.customCard1__date {
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #c4abe0;
+}
+
+
+
+.customCard1:hover .customCard1__info {
+	background-color: transparent;
+	position: relative;
+}
+
+.customCard1:hover .customCard1__info-hover {
+	opacity: 1;
+}

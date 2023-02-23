@@ -1,0 +1,35 @@
+.capitalize{
+    text-transform: capitalize;
+}
+
+.tableHead {
+    border-collapse: separate;
+}
+
+.tableHead th {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(34, 5, 71);
+    background-color: #fff;
+    text-align: center;
+}
+
+.tableBody td {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: yellow;
+    background-color: rgb(63, 9, 134);
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg:rgb(44, 11, 87);
+    color: yellow;
+}
+
+/* .table-hover>tbody>tr:hover>* {
+    --bs-table-accent-bg: #fff;
+    color: rgb(44, 11, 87);
+    transition: 700ms;
+} */

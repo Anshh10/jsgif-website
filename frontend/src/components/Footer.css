@@ -1,0 +1,13 @@
+.footer-section {
+  min-height: 150px;
+  background: linear-gradient(312deg, rgba(55,3,122,1) 0%, rgba(37,6,79,1) 100%);
+  margin: 0px;
+}
+
+.footer-section h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
